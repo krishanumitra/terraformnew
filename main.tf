@@ -2,9 +2,6 @@ provider "aws" {
   region = var.aws_region
   access_key = "AKIA2BZV2E4D5SGYGUOC"
   secret_key = "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"
-  assume_role {
-    role_arn = "arn:aws:iam::691065726727:role/Terraform-role"
-  }
 }
 
 #Create security group with firewall rules
