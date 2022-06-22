@@ -1,4 +1,8 @@
-provider "aws" {}
+provider "aws" {
+        access_key = "AKIA3AY6MJZZCUC3X24J"
+        secret_key = "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"
+        region = "us-east-1"
+}
 
 #Create security group with firewall rules
 resource "aws_security_group" "my_security_group" {
